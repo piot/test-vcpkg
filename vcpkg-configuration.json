@@ -1,0 +1,17 @@
+{
+    "default-registry": {
+        "kind": "git",
+        "repository": "https://github.com/Microsoft/vcpkg",
+        "baseline": "7771648f32626142222bbd3b91421e53314bee69"
+    },
+    "registries": [
+        {
+            "kind": "git",
+            "repository": "https://github.com/piot/vcpkg-registry",
+            "baseline": "75e0f499e2186de35b208e0a3a4b53eb3eb704bd",
+            "packages": [
+                "tiny-libc"
+            ]
+        }
+    ]
+}
